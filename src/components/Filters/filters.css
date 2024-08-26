@@ -1,0 +1,41 @@
+.filters-container-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  background-color: #F4F4F4;
+  border-radius: 8px;
+  gap: 10px; /* Отступы между элементами */
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-item-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px; /* Минимальная ширина для селекторов */
+}
+
+.filter-item-inline label {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  color: #333333;
+  text-align: center;
+}
+
+.filter-item-inline select {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: 1px solid #CCCCCC;
+  background-color: #FFF;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+.filter-item-inline select:focus {
+  border-color: #CC0000;
+  outline: none;
+}

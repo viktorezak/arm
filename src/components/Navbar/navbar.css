@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .menu-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar h1 {
+    font-size: 1.5rem;
+    color: #CC0000; /* Акцентный цвет РЖД */
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info button {
+    margin-left: 20px;
+    background-color: #CC0000; /* Красная кнопка */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .user-name {
+    margin-right: 10px;
+  }
+
+  .logout-button, .login-button {
+    background-color: #cc0000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-button:hover, .login-button:hover {
+    background-color: #a30000;
+  }
+
+
+@media (max-width: 768px) {
+
+  .navbar h1 {
+    font-size: 0.8rem;
+    color: #CC0000; /* Акцентный цвет РЖД */
+  }
+
+  .user-info {
+    display: flex; /* Скрыть информацию о пользователе на мобильных экранах */
+  }
+}
+
+@media (min-width: 769px) {
+  .user-info {
+    display: flex;
+  }
+}

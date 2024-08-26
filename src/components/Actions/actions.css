@@ -1,0 +1,21 @@
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .actions button {
+    padding: 8px 15px;
+    background-color: #CC0000; /* Красные кнопки в стиле РЖД */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .actions button:hover {
+    background-color: #990000;
+  }

@@ -1,0 +1,44 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* Скрыто по умолчанию */
+  width: 250px;
+  height: 100%;
+  background-color: #F4F4F4;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: left 0.3s ease;
+  z-index: 1000;
+}
+
+
+.sidebar.open {
+  left: 0; /* Открытое меню */
+}
+
+.sidebar button {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 15px;
+  background-color: #CC0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #333333;
+  border-bottom: 1px solid #E0E0E0;
+  cursor: pointer;
+}
+
+.sidebar ul li:hover {
+  background-color: #e5e5e5;
+}

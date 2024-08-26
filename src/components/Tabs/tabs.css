@@ -1,0 +1,25 @@
+.tabs {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .tabs button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #333333;
+    cursor: pointer;
+  }
+  
+  .tabs button.active {
+    border-bottom: 3px solid #CC0000;
+    font-weight: bold;
+  }
+  
+  .tabs button:hover {
+    background-color: #e0e0e0;
+  }

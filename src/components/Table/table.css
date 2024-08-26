@@ -1,0 +1,17 @@
+.hot-table {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
+  .hot .htCore td, .hot .htCore th {
+    border: 1px solid #ccc;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: #333333;
+  }
+  
+  .hot .htCore td.current, .hot .htCore th.current {
+    background-color: #CC0000; /* Акцентный красный цвет */
+    color: white;
+  }

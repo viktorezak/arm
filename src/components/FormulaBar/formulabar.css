@@ -1,0 +1,26 @@
+.formula-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .formula-bar span {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .formula-bar input {
+    flex-grow: 1;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  .formula-bar .selected-cell {
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+  }
